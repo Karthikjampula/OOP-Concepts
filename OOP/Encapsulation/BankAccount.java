@@ -32,7 +32,7 @@ public class BankAccount {
     public void withdraw(double witdrawAmount){
         if(bankBalance>0){
             bankBalance-=witdrawAmount;
-            System.out.println("withdraw Amount: "+witdrawAmount);
+            System.out.println("Withdraw Amount: "+witdrawAmount);
         }else{
             System.out.println("Insufficient Balance..!");
         }
